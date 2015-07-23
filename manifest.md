@@ -1,0 +1,10 @@
+        "name": packageId,
+        "short_name": packageId.split(".").pop(),
+        "display": "standalone",
+        "start_url": "index.html",
+        "crosswalk_app_version": "1",
+        "crosswalk_target_platforms": platformInfo.platformId,
+        "crosswalk_android_animatable_view": false,
+        "crosswalk_android_keep_screen_on": false,
+        "crosswalk_windows_update_id": windowsUpdateId,
+        "crosswalk_windows_vendor": "(Vendor)"  // optional, placeholder
