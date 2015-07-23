@@ -1,10 +1,22 @@
-        "name": packageId,
-        "short_name": packageId.split(".").pop(),
-        "display": "standalone",
-        "start_url": "index.html",
-        "crosswalk_app_version": "1",
-        "crosswalk_target_platforms": platformInfo.platformId,
-        "crosswalk_android_animatable_view": false,
-        "crosswalk_android_keep_screen_on": false,
-        "crosswalk_windows_update_id": windowsUpdateId,
-        "crosswalk_windows_vendor": "(Vendor)"  // optional, placeholder
+Manifest.json fields
+====================
+
+* Field `name`: http://www.w3.org/TR/appmanifest/#name-member
+
+* Field `short_name`: http://www.w3.org/TR/appmanifest/#short_name-member
+
+* Field `display`: http://www.w3.org/TR/appmanifest/#display-member
+
+* Field `start_url`: http://www.w3.org/TR/appmanifest/#start_url-member
+
+* Extension field `crosswalk_app_version`: 
+
+* Extension field `crosswalk_target_platforms`: 
+
+* Extension field `crosswalk_android_animatable_view`: 
+
+* Extension field `crosswalk_android_keep_screen_on`: 
+
+* Extension field `crosswalk_windows_update_id`: 
+
+* Extension field `crosswalk_windows_vendor`: 
